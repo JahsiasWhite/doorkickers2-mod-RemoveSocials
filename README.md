@@ -1,17 +1,24 @@
-# Remove Socials - Door Kickers 2 UI Mod
+# Door Kickers 2 Random Mods
 
-This mod removes the Discord and Twitter button on the main menu.
+These are some mods I made for [Door Kickers 2](https://store.steampowered.com/app/1239080/Door_Kickers_2_Task_Force_North/)
 
-![mod_image](/RemoveSocials/mod_image.jpg)
+## Mods
 
-## Installation
+- **RemoveSocials/**  
+  Removes the Discord and Twitter button on the main menu.
 
-1. Download the mod files.
-2. Navigate to your Door Kickers 2 installation directory.
-3. Place the unzipped mod files into /DoorKickers2/mods
-4. Launch the game and enjoy!
+- **CODBO2Menu/**  
+  Replaces the main menu of Door Kickers 2 with a design inspired by Call of Duty: Black Ops 2.
 
-## Notes
+- **CODBO2Music/**  
+  Replaces the Door Kickers 2 original soundtrack for tracks from Call of Duty: Black Ops 2. Due to copyright reasons, these tracks are not included.
 
-- This mod only removes the UI elements and does not affect any other functionality of the game.
-- If you have other mods installed, make sure that they do not modify `menus.xml`
+## How to install
+
+1. Clone or download this repo (or just grab the folder(s) you like).
+2. Copy `RemoveSocials/` and/or `COD_BO2_MainMenu/` into your game’s `DoorKickers2/mods/` directory.
+3. Launch Door Kickers 2 – the mods will load automatically.
+
+To disable a mod, just remove or rename its folder in `mods/` and restart the game.
+
+Enjoy!

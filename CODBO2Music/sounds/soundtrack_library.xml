@@ -1,0 +1,32 @@
+<Sounds>
+    <Sound ID="music_main_menu" channel="music" stream="true" preload="true">
+	<Path name="data/sounds/music/Black-Ops-2-Soundtrack_-Main-Theme.ogg" />
+    </Sound>
+
+    <!-- in case of streamed sounds, 'preload' means that only their headers are parsed, they won't be entirely preloaded -->
+    <Sound ID="music_ingame" channel="music" stream="true" preload="true">
+        <Path name="data/sounds/music/Call of Duty Black Ops 2 - The Search For Josefina (Soundtrack OST).ogg"/>
+        <Path name="data/sounds/music/Call of Duty Black Ops 2 - Flying Squirrels (Soundtrack OST).ogg"/>
+        <Path name="data/sounds/music/Call of Duty Black Ops 2 - Sand and Camels (Soundtrack OST).ogg"/>
+        <Path name="data/sounds/music/Call of Duty Black Ops 2 - Catch Me If You Can (Soundtrack OST).ogg"/>
+        <Path name="data/sounds/music/Call of Duty Black Ops 2 - Desert Ride (Soundtrack OST).ogg"/>
+        <Path name="data/sounds/music/Call-of-Duty-Black-Ops-2-The-Invasion-Of-Panama-_Soundtrack-OST_.ogg"/>
+        <Path name="data/sounds/music/Call-of-Duty-Black-Ops-2-Pakistan-Run-_Feat.-Azam-Ali_-_Soundtrack-OST_.ogg"/>
+        <Path name="data/sounds/music/Call-of-Duty-Black-Ops-2-Savimbis-Pride-_Soundtrack-OST_.ogg"/>
+        <Path name="data/sounds/music/Call-of-Duty-Black-Ops-2-Adrenaline-_Soundtrack-OST_.ogg"/>
+    </Sound>
+
+    <Sound ID="music_win" channel="music" stream="true" preload="true">
+      	<Path name="data/sounds/music/FBI Victory Theme.ogg"/>
+        <Path name="data/sounds/music/ISA Victory Theme.ogg"/>
+	<Path name="data/sounds/music/Mercs Victory Theme.ogg"/>
+	<Path name="data/sounds/music/Militia Victory Theme.ogg"/>
+	<Path name="data/sounds/music/SDC Victory Theme.ogg"/>
+	<Path name="data/sounds/music/SEALS Victory Theme.ogg"/>
+    </Sound>
+
+    <Sound ID="music_fail" channel="music" stream="true" preload="true">
+	<Path name="data/sounds/music/COD_ Black Ops 2 Defeat Theme.ogg"/>
+	<Path name="data/sounds/music/COD_ Black Ops 2 Draw Theme.ogg"/>
+    </Sound>
+</Sounds>

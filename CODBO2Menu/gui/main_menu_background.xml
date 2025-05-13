@@ -1,0 +1,37 @@
+<GUIItems>
+
+  <Item name="Menu_Main_Blurred_Background" hidden="true">
+    <OnOpen>
+      <Action type="MoveToBackground" target="Menu_Main_Blurred_Background"/>
+    </OnOpen>
+
+    <!-- 
+      name is Menu_Main_Background_## , where the game tries to match the unit name as ## 
+        if not found, it will fall back to Rangers
+    -->
+    
+
+  <Item name="Menu_Main_Background_Rangers">
+      <!-- global speed with which the layers move around in their default animation -->
+      <Item name="#parallax_speed" origin="0 0"/>  <!-- the layers go out of screen in 16:10, no Y movement -->
+      <!--<Item name="#parallax_speed" origin="0.0 0"/>-->
+
+      <!-- multiplier for how much the screen moves with the mouse horizontally/vertically (vertical (y) movement scales the image, while horizontal (x) movement will add on top of the default horizontal animation -->
+      <Item name="#parallax_mouse_scale" origin="0 0"/>
+      <!--<Item name="#parallax_mouse_scale" origin="-1.0 0.003"/>-->
+
+      <Item name="#parallax_elements">
+        
+        <Item>
+            <StaticImage origin="0 0">
+              <RenderObject2D texture="data/textures/gui/download.jpg"/>
+              
+              <!-- 'origin' for these is a multiplier for the movement speed of each layer, gets multiplied by #parallax_speed -->
+              <Item name="#parallax_layer_speed" origin="0 0"/>
+            </StaticImage>
+          </Item>
+      </Item>
+    </Item>
+  </Item>
+
+</GUIItems>
