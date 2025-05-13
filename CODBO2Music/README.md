@@ -6,6 +6,8 @@ This mod swaps out Door Kickers 2’s original soundtrack for tracks from Call o
 - In-level background music
 - Victory and defeat themes
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3451564158)
+
 ![mod_image](/CODBO2Music/mod_image.jpg)
 
 ## Installation

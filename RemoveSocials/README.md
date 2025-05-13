@@ -2,6 +2,8 @@
 
 This mod removes the Discord and Twitter button on the main menu.
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3441861309)
+
 ![mod_image](/RemoveSocials/mod_image.jpg)
 
 ## Installation

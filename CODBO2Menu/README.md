@@ -2,6 +2,8 @@
 
 This mod replaces the main menu of Door Kickers 2 with a design inspired by Call of Duty: Black Ops 2.
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3451564434)
+
 ![mod_image](/CODBO2Menu/mod_image.jpg)
 
 ## Installation
